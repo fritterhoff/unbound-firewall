@@ -1,0 +1,32 @@
+{
+    "domain_categories_source": "https://v.firebog.net/hosts/csv.txt",
+    "domain_categories": {
+        "0": {
+            "description": "suspicious",
+            "target": "."
+        },
+        "1": {
+            "description": "advertising",
+            "target": "."
+        },
+        "2": {
+            "description": "tracking",
+            "target": "."
+        },
+        "3": {
+            "description": "malicious",
+            "target": "."
+        },
+        "4": {
+            "description": "other",
+            "target": "."
+        }
+    },
+    "ip_range_lists": {
+        "lists": [
+            "https://www.spamhaus.org/drop/drop.txt",
+            "https://www.spamhaus.org/drop/dropv6.txt"
+        ],
+        "target": "."
+    }
+}

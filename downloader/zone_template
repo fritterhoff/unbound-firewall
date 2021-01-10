@@ -1,0 +1,5 @@
+; resource policy zone file {ZONE}
+$TTL 1H
+@                       SOA {HOSTNAME}. ({SERIAL} 1h 30m 30d 2h)
+                        NS {HOSTNAME}.
+; begin RPZ RR definitions
