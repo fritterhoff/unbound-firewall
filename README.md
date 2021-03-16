@@ -2,13 +2,13 @@
 
 During my bachelor study I had to write a short term paper about DNS-Firewalls. 
 
-This repo provides the results of this paper, containing the installation and configuration of `unbound` as a local DNS-Firewall and a script for simplified generation of RPZ zone definitions. Therefore the quite new functionality DNS-RPZ, introduced with `unbound` in version 1.10 [https://nlnetlabs.nl/news/2020/Feb/20/unbound-1.10.0-released/](nlnetlabs), is used. The blocklists are taken from the [https://firebog.net/](The Big Blocklist Collection).
+This repo provides the results of this paper, containing the installation and configuration of `unbound` as a local DNS-Firewall and a script for simplified generation of RPZ zone definitions. Therefore the quite new functionality DNS-RPZ, introduced with `unbound` in version 1.10 [nlnetlabs](https://nlnetlabs.nl/news/2020/Feb/20/unbound-1.10.0-released/), is used. The blocklists are taken from the [The Big Blocklist Collection](https://firebog.net/).
 
 # Installation
 
 ## Unbound
 
-As mentioned before `unbound` is required in version 1.10. This version is e.g. available using [https://packages.debian.org/buster-backports/unbound](buster-backports). 
+As mentioned before `unbound` is required in version 1.10. This version is e.g. available using [buster-backports](https://packages.debian.org/buster-backports/unbound). 
 
 For installing unbound execute: `sudo apt install unbound`. I also strongly recommend installing the `dns-utils` package.
 
